@@ -21,3 +21,4 @@ t/internals.t
 t/data/test.html
 xt/pod-coverage.t
 xt/pod.t
+META.json

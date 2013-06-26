@@ -13,10 +13,14 @@ my $builder = Module::Build->new(
         'HTML::TokeParser' => 2.24,
         'Test::More'       => 0,
         'Sub::Override'    => 0,
-        'perl'             => 5.006,  # for 'our' declarations
+        'perl'             => 5.006,    # for 'our' declarations
     },
     add_to_cleanup     => ['HTML-TokeParser-Simple-*'],
     create_makefile_pl => 'traditional',
+    meta_merge         => {
+        resources =>
+          { repository => 'https://github.com/Ovid/html-tokeparser-simple', },
+    },
 );
 
 $builder->create_build_script();
