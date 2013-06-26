@@ -1,0 +1,46 @@
+---
+name: HTML-TokeParser-Simple
+version: 3.15
+author:
+  - Curtis "Ovid" Poe <ovid@cpan.org>
+abstract: Easy to use C<HTML::TokeParser> interface
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  HTML::Parser: 3.25
+  HTML::TokeParser: 2.24
+  Sub::Override: 0
+  Test::More: 0
+provides:
+  HTML::TokeParser::Simple:
+    file: lib/HTML/TokeParser/Simple.pm
+    version: 3.15
+  HTML::TokeParser::Simple::Token:
+    file: lib/HTML/TokeParser/Simple/Token.pm
+    version: 3.0
+  HTML::TokeParser::Simple::Token::Comment:
+    file: lib/HTML/TokeParser/Simple/Token/Comment.pm
+    version: 1.0
+  HTML::TokeParser::Simple::Token::Declaration:
+    file: lib/HTML/TokeParser/Simple/Token/Declaration.pm
+    version: 1.0
+  HTML::TokeParser::Simple::Token::ProcessInstruction:
+    file: lib/HTML/TokeParser/Simple/Token/ProcessInstruction.pm
+    version: 2.0
+  HTML::TokeParser::Simple::Token::Tag:
+    file: lib/HTML/TokeParser/Simple/Token/Tag.pm
+    version: 1.2
+  HTML::TokeParser::Simple::Token::Tag::End:
+    file: lib/HTML/TokeParser/Simple/Token/Tag/End.pm
+    version: 1.0
+  HTML::TokeParser::Simple::Token::Tag::Start:
+    file: lib/HTML/TokeParser/Simple/Token/Tag/Start.pm
+    version: 1.0
+  HTML::TokeParser::Simple::Token::Text:
+    file: lib/HTML/TokeParser/Simple/Token/Text.pm
+    version: 1.0
+generated_by: Module::Build version 0.2703
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
