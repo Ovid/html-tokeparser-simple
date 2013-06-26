@@ -19,5 +19,5 @@ t/02munge_html.t
 t/03constructor.t
 t/04internals.t
 t/data/test.html
-t/pod-coverage.t
-t/pod.t
+xt/pod-coverage.t
+xt/pod.t
