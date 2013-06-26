@@ -223,5 +223,7 @@ the C<HTML::TokeParser::Simple> docs for details.
 
 =item * set_attr
 
+=back
+
 =cut
 

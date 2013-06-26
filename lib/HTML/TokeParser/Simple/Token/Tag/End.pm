@@ -130,4 +130,6 @@ the C<HTML::TokeParser::Simple> docs for details.
 
 =item * rewrite_tag
 
+=back
+
 =cut
