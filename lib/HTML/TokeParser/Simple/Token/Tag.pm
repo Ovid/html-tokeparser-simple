@@ -2,9 +2,7 @@ package HTML::TokeParser::Simple::Token::Tag;
 
 use strict;
 
-use vars qw/ $VERSION $REVISION /;
-$REVISION = '$Id: Tag.pm,v 1.5 2005/10/08 19:45:55 ovid Exp $';
-$VERSION  = '1.2';
+our $VERSION  = '3.16';
 use base 'HTML::TokeParser::Simple::Token';
 
 my %INSTANCE;

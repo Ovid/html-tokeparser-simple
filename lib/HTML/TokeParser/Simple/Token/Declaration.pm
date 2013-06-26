@@ -2,9 +2,7 @@ package HTML::TokeParser::Simple::Token::Declaration;
 
 use strict;
 
-use vars qw/ $VERSION $REVISION /;
-$REVISION = '$Id: Declaration.pm,v 1.3 2005/10/08 19:45:55 ovid Exp $';
-$VERSION  = '1.0';
+our $VERSION  = '3.15';
 use base 'HTML::TokeParser::Simple::Token';
 
 sub is_declaration { 1 }

@@ -2,9 +2,7 @@ package HTML::TokeParser::Simple::Token;
 
 use strict;
 
-use vars qw/ $VERSION $REVISION /;
-$REVISION = '$Id: Token.pm,v 1.5 2005/10/08 19:45:55 ovid Exp $';
-$VERSION  = '3.0';
+our $VERSION  = '3.16';
 
 sub new {
     my ($class, $token) = @_;

@@ -2,9 +2,7 @@ package HTML::TokeParser::Simple::Token::ProcessInstruction;
 
 use strict;
 
-use vars qw/ $VERSION $REVISION /;
-$REVISION = '$Id: ProcessInstruction.pm,v 1.2 2005/10/08 19:45:55 ovid Exp $';
-$VERSION  = '2.0';
+our $VERSION  = '3.16';
 use base 'HTML::TokeParser::Simple::Token';
 
 sub return_token0 { goto &get_token0 } # deprecated

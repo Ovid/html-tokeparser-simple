@@ -11,11 +11,8 @@ use HTML::TokeParser::Simple::Token::Comment;
 use HTML::TokeParser::Simple::Token::Declaration;
 use HTML::TokeParser::Simple::Token::ProcessInstruction;
 
-use vars qw/ @ISA $VERSION $REVISION /;
-
-$REVISION = '$Id: Simple.pm,v 1.9 2005/10/08 19:45:55 ovid Exp $';
-$VERSION  = '3.15';
-@ISA = qw/ HTML::TokeParser /;
+our $VERSION  = '3.16';
+use base 'HTML::TokeParser';
 
 # constructors
 

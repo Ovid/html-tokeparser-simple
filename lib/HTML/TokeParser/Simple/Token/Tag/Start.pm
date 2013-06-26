@@ -2,9 +2,7 @@ package HTML::TokeParser::Simple::Token::Tag::Start;
 
 use strict;
 
-use vars qw/ $VERSION $REVISION /;
-$REVISION = '$Id: Start.pm,v 1.2 2005/10/08 19:45:55 ovid Exp $';
-$VERSION  = '1.0';
+our $VERSION  = '3.16';
 use base 'HTML::TokeParser::Simple::Token::Tag';
 
 use HTML::Entities qw/encode_entities/;
