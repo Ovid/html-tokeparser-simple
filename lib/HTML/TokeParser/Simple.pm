@@ -161,7 +161,7 @@ C<HTML::TokeParser>'s constructor:
 =head2 C<new($source_type, $source)>
 
 If you wish to be more explicit, there is a new style of
-constructor avaiable.
+constructor available.
 
   my $parser = HTML::TokeParser::Simple->new(file   => $filename);
   # or
@@ -551,14 +551,14 @@ the form tags.  You need to change it to "http://www.bar.com/".
 
 =head1 CAVEATS
 
-For compatability reasons with C<HTML::TokeParser>, methods that return
+For compatibility reasons with C<HTML::TokeParser>, methods that return
 references are violating encapsulation and altering the references directly
 B<will> alter the state of the object.  Subsequent calls to C<rewrite_tag()>
 can thus have unexpected results.  Do not alter these references directly
 unless you are following behavior described in these docs.  In the future,
 certain methods such as C<get_attr>, C<get_attrseq> and others may return a
 copy of the reference rather than the original reference.  This behavior has
-not yet been changed in order to maintain compatability with previous versions
+not yet been changed in order to maintain compatibility with previous versions
 of this module.  At the present time, your author is not aware of anyone taking
 advantage of this "feature," but it's better to be safe than sorry.
 
