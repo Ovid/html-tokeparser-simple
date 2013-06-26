@@ -13,11 +13,11 @@ Makefile.PL
 MANIFEST
 META.yml			Module meta-data (added by MakeMaker)
 README
-t/01get_tag.t
-t/01get_token.t
-t/02munge_html.t
-t/03constructor.t
-t/04internals.t
+t/get_tag.t
+t/get_token.t
+t/munge_html.t
+t/constructor.t
+t/internals.t
 t/data/test.html
 xt/pod-coverage.t
 xt/pod.t
