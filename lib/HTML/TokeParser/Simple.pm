@@ -196,7 +196,7 @@ L<HTML::TokeParser::Simple::Token::Tag::End> class.
 
 =head2 peek
 
-As of version C<3.14>, you can now C<peek()> at the upcomings tokens without
+As of version C<3.14>, you can now C<peek()> at the upcoming tokens without
 affecting the state of the parser.  By default, C<peek()> will return the text
 of the next token, but specifying an integer C<$count> will return the text of
 the next C<$count> tokens.
