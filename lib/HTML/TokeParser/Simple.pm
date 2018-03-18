@@ -134,7 +134,7 @@ However, the tokens returned are not exactly intuitive to parse:
  ["D",  $text]
  ["PI", $token0, $text]
 
-To simplify this, C<HTML::TokeParser::Simple> allows the user ask more
+To simplify this, C<HTML::TokeParser::Simple> allows the user to ask more
 intuitive (read: more self-documenting) questions about the tokens returned.
 
 You can also rebuild some tags on the fly.  Frequently, the attributes
